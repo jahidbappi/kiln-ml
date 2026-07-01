@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-07-01T06:54:45.565394+00:00",
+  "timestamp": "2026-07-01T07:06:04.759275+00:00",
   "seed": 42,
-  "commit": "aaef246",
+  "commit": "921ec07",
   "tracks": [
     {
       "track": "tabular",
       "dataset": "titanic+breast_cancer+wine",
       "num_samples": 1599,
-      "timestamp": "2026-07-01T06:54:45.377176+00:00",
+      "timestamp": "2026-07-01T07:06:04.110745+00:00",
       "seed": 42,
-      "commit": "aaef246",
+      "commit": "921ec07",
       "citation": "Kaggle Titanic; sklearn Breast Cancer; UCI Wine Quality",
       "license": "Mixed — see DATASETS.md",
       "source_url": "https://github.com/jahidbappi/kiln-ml/blob/master/DATASETS.md",
@@ -37,8 +37,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 2.573792007751763,
-            "inference_ms": 0.0008165176647404829,
+            "train_time_ms": 2.0122920104768127,
+            "inference_ms": 0.000750728200696278,
             "extra": {}
           }
         },
@@ -51,9 +51,9 @@
           "tool": "scikit-learn",
           "metrics": {
             "primary_metric": "accuracy",
-            "primary_value": 0.9824561403508771,
-            "accuracy": 0.9824561403508771,
-            "f1": 0.9823623542652152,
+            "primary_value": 0.9736842105263158,
+            "accuracy": 0.9736842105263158,
+            "f1": 0.9736164257756981,
             "roc_auc": 0.9960317460317459,
             "rmse": null,
             "mae": null,
@@ -65,8 +65,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 6.466708000516519,
-            "inference_ms": 0.004814693136467484,
+            "train_time_ms": 8.4887919947505,
+            "inference_ms": 0.017680921142496038,
             "extra": {}
           }
         },
@@ -93,8 +93,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 105.1881670136936,
-            "inference_ms": 0.033467833418399096,
+            "train_time_ms": 94.30029199575074,
+            "inference_ms": 0.04815278072400313,
             "extra": {}
           }
         },
@@ -121,8 +121,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.20162499276921153,
-            "inference_ms": 0.19874158769788777,
+            "train_time_ms": 0.20574999507516623,
+            "inference_ms": 0.18625694741658344,
             "extra": {}
           }
         },
@@ -149,8 +149,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.4610840114764869,
-            "inference_ms": 0.0009426230303289598,
+            "train_time_ms": 0.4697499971371144,
+            "inference_ms": 0.0010365525795669672,
             "extra": {}
           }
         },
@@ -177,8 +177,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 208.67949997773394,
-            "inference_ms": 0.0030248596439170733,
+            "train_time_ms": 681.07575000613,
+            "inference_ms": 0.005211254271368186,
             "extra": {}
           }
         },
@@ -205,8 +205,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 3.1954169971868396,
-            "inference_ms": 0.0006677631366377076,
+            "train_time_ms": 3.519541001878679,
+            "inference_ms": 0.0010193685547595745,
             "extra": {}
           }
         },
@@ -219,10 +219,10 @@
           "tool": "scikit-learn",
           "metrics": {
             "primary_metric": "accuracy",
-            "primary_value": 0.8181818181818182,
-            "accuracy": 0.8181818181818182,
-            "f1": 0.8101882919512099,
-            "roc_auc": 0.8761663286004058,
+            "primary_value": 0.8321678321678322,
+            "accuracy": 0.8321678321678322,
+            "f1": 0.8297233353413129,
+            "roc_auc": 0.868864097363083,
             "rmse": null,
             "mae": null,
             "r2": null,
@@ -233,8 +233,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 20.538250013487414,
-            "inference_ms": 0.010884034983045259,
+            "train_time_ms": 19.4678750121966,
+            "inference_ms": 0.03607633565975861,
             "extra": {}
           }
         },
@@ -261,8 +261,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 2.474417007761076,
-            "inference_ms": 0.0007141607820049866,
+            "train_time_ms": 8.229209022829309,
+            "inference_ms": 0.0010708042085040492,
             "extra": {}
           }
         },
@@ -289,8 +289,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 44.21858402201906,
-            "inference_ms": 0.0021494756097794623,
+            "train_time_ms": 57.70258299889974,
+            "inference_ms": 0.004876167896053904,
             "extra": {}
           }
         },
@@ -317,8 +317,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.45929200132377446,
-            "inference_ms": 0.0006981329158782125,
+            "train_time_ms": 1.209666981594637,
+            "inference_ms": 0.0009192868178202348,
             "extra": {}
           }
         },
@@ -345,8 +345,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.3877079871017486,
-            "inference_ms": 0.007502916000353603,
+            "train_time_ms": 0.457499991171062,
+            "inference_ms": 0.009790790296596038,
             "extra": {}
           }
         },
@@ -373,8 +373,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 66.7833749903366,
-            "inference_ms": 0.02774796501564031,
+            "train_time_ms": 77.37004201044329,
+            "inference_ms": 0.029727566248079488,
             "extra": {}
           }
         },
@@ -401,8 +401,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 1.4270420069806278,
-            "inference_ms": 0.0007604896025797287,
+            "train_time_ms": 2.93629098450765,
+            "inference_ms": 0.0006993007325157003,
             "extra": {}
           }
         },
@@ -429,8 +429,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.5362499796319753,
-            "inference_ms": 0.0001660156158322934,
+            "train_time_ms": 1.254165981663391,
+            "inference_ms": 0.00028125004973844625,
             "extra": {}
           }
         },
@@ -457,8 +457,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.39216698496602476,
-            "inference_ms": 0.00014986881069489755,
+            "train_time_ms": 0.6501250027213246,
+            "inference_ms": 0.00022539061319548637,
             "extra": {}
           }
         },
@@ -485,8 +485,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.7355840061791241,
-            "inference_ms": 0.0001446624992240686,
+            "train_time_ms": 2.3138750111684203,
+            "inference_ms": 0.0006360686711559538,
             "extra": {}
           }
         },
@@ -513,8 +513,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 29.72849999787286,
-            "inference_ms": 0.03368632815181627,
+            "train_time_ms": 61.38508298317902,
+            "inference_ms": 0.046405987450270914,
             "extra": {}
           }
         },
@@ -541,8 +541,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 334.18233299744315,
-            "inference_ms": 0.018948437445942545,
+            "train_time_ms": 595.6781250133645,
+            "inference_ms": 0.08097044055830338,
             "extra": {}
           }
         }
@@ -552,9 +552,9 @@
       "track": "unsupervised",
       "dataset": "iris+digits",
       "num_samples": 1257,
-      "timestamp": "2026-07-01T06:54:45.537888+00:00",
+      "timestamp": "2026-07-01T07:06:04.697347+00:00",
       "seed": 42,
-      "commit": "aaef246",
+      "commit": "921ec07",
       "citation": "sklearn Iris and Digits datasets",
       "license": "BSD",
       "source_url": "https://scikit-learn.org/stable/datasets.html",
@@ -582,8 +582,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 30.63779100193642,
-            "inference_ms": 0.04284097222908814,
+            "train_time_ms": 61.97979100397788,
+            "inference_ms": 0.08055752219257152,
             "extra": {}
           }
         },
@@ -610,8 +610,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 1.0811249958351254,
-            "inference_ms": 0.006754397246469226,
+            "train_time_ms": 6.895833997987211,
+            "inference_ms": 0.06195590273515942,
             "extra": {}
           }
         },
@@ -638,8 +638,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 2.2727089817635715,
-            "inference_ms": 0.01867939718067646,
+            "train_time_ms": 4.8288339748978615,
+            "inference_ms": 0.03649536940631353,
             "extra": {}
           }
         },
@@ -666,8 +666,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 13.430375023745,
-            "inference_ms": 0.027071066708433338,
+            "train_time_ms": 24.04491600464098,
+            "inference_ms": 0.08225914449819054,
             "extra": {}
           }
         },
@@ -694,7 +694,7 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.9551249968353659,
+            "train_time_ms": 1.648333010962233,
             "inference_ms": 0.0,
             "extra": {}
           }
@@ -722,7 +722,7 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 4.866333008976653,
+            "train_time_ms": 166.16654099198058,
             "inference_ms": 0.0,
             "extra": {}
           }
@@ -750,7 +750,7 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 27.61770799406804,
+            "train_time_ms": 78.9856250048615,
             "inference_ms": 0.0,
             "extra": {}
           }
@@ -761,9 +761,9 @@
       "track": "vision",
       "dataset": "fashion_mnist",
       "num_samples": 10000,
-      "timestamp": "2026-07-01T06:54:45.548270+00:00",
+      "timestamp": "2026-07-01T07:06:04.729917+00:00",
       "seed": 42,
-      "commit": "aaef246",
+      "commit": "921ec07",
       "citation": "Fashion-MNIST (Zalando Research)",
       "license": "MIT",
       "source_url": "https://github.com/zalandoresearch/fashion-mnist",
@@ -864,9 +864,9 @@
       "track": "detection",
       "dataset": "hard_hat_workers",
       "num_samples": 0,
-      "timestamp": "2026-07-01T06:54:45.557280+00:00",
+      "timestamp": "2026-07-01T07:06:04.745935+00:00",
       "seed": 42,
-      "commit": "aaef246",
+      "commit": "921ec07",
       "citation": "Roboflow Hard Hat Workers (Universe)",
       "license": "See Roboflow Universe",
       "source_url": "https://universe.roboflow.com/roboflow-100/hard-hat-workers",

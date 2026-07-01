@@ -2,9 +2,9 @@
   "track": "unsupervised",
   "dataset": "iris+digits",
   "num_samples": 1257,
-  "timestamp": "2026-07-01T06:54:45.537888+00:00",
+  "timestamp": "2026-07-01T07:06:04.697347+00:00",
   "seed": 42,
-  "commit": "aaef246",
+  "commit": "921ec07",
   "citation": "sklearn Iris and Digits datasets",
   "license": "BSD",
   "source_url": "https://scikit-learn.org/stable/datasets.html",
@@ -32,8 +32,8 @@
         "map50_95": null,
         "precision": null,
         "recall": null,
-        "train_time_ms": 30.63779100193642,
-        "inference_ms": 0.04284097222908814,
+        "train_time_ms": 61.97979100397788,
+        "inference_ms": 0.08055752219257152,
         "extra": {}
       }
     },
@@ -60,8 +60,8 @@
         "map50_95": null,
         "precision": null,
         "recall": null,
-        "train_time_ms": 1.0811249958351254,
-        "inference_ms": 0.006754397246469226,
+        "train_time_ms": 6.895833997987211,
+        "inference_ms": 0.06195590273515942,
         "extra": {}
       }
     },
@@ -88,8 +88,8 @@
         "map50_95": null,
         "precision": null,
         "recall": null,
-        "train_time_ms": 2.2727089817635715,
-        "inference_ms": 0.01867939718067646,
+        "train_time_ms": 4.8288339748978615,
+        "inference_ms": 0.03649536940631353,
         "extra": {}
       }
     },
@@ -116,8 +116,8 @@
         "map50_95": null,
         "precision": null,
         "recall": null,
-        "train_time_ms": 13.430375023745,
-        "inference_ms": 0.027071066708433338,
+        "train_time_ms": 24.04491600464098,
+        "inference_ms": 0.08225914449819054,
         "extra": {}
       }
     },
@@ -144,7 +144,7 @@
         "map50_95": null,
         "precision": null,
         "recall": null,
-        "train_time_ms": 0.9551249968353659,
+        "train_time_ms": 1.648333010962233,
         "inference_ms": 0.0,
         "extra": {}
       }
@@ -172,7 +172,7 @@
         "map50_95": null,
         "precision": null,
         "recall": null,
-        "train_time_ms": 4.866333008976653,
+        "train_time_ms": 166.16654099198058,
         "inference_ms": 0.0,
         "extra": {}
       }
@@ -200,7 +200,7 @@
         "map50_95": null,
         "precision": null,
         "recall": null,
-        "train_time_ms": 27.61770799406804,
+        "train_time_ms": 78.9856250048615,
         "inference_ms": 0.0,
         "extra": {}
       }

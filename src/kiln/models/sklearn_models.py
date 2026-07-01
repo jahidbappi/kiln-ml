@@ -4,6 +4,7 @@ import time
 from typing import Any
 
 import numpy as np
+from sklearn.calibration import CalibratedClassifierCV
 from sklearn.cluster import DBSCAN, AgglomerativeClustering, KMeans
 from sklearn.decomposition import PCA
 from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier, RandomForestRegressor
@@ -44,7 +45,7 @@ def _timed_fit_predict(
 def classification_models() -> dict[str, Any]:
     return {
         "logistic_regression": LogisticRegression(max_iter=1000, random_state=42),
-        "svm_rbf": SVC(kernel="rbf", probability=True, random_state=42),
+        "svm_rbf": CalibratedClassifierCV(SVC(kernel="rbf", random_state=42), cv=3),
         "knn": KNeighborsClassifier(n_neighbors=5),
         "naive_bayes": GaussianNB(),
         "decision_tree": DecisionTreeClassifier(max_depth=8, random_state=42),

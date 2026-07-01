@@ -29,6 +29,9 @@ jobs:
       - name: Benchmark tabular (CI)
         run: kiln-benchmark --track tabular --seed 42 --output benchmarks/results
 
+      - name: Benchmark vision smoke (Keras)
+        run: pip install -e ".[vision]" && kiln-benchmark --track vision --epochs 1 --seed 42 --output benchmarks/results
+
       - name: Upload benchmark artifacts
         uses: actions/upload-artifact@v4
         with:
