@@ -1,0 +1,73 @@
+{
+  "track": "detection",
+  "dataset": "hard_hat_workers",
+  "num_samples": 0,
+  "timestamp": "2026-07-01T06:54:45.557280+00:00",
+  "seed": 42,
+  "commit": "aaef246",
+  "citation": "Roboflow Hard Hat Workers (Universe)",
+  "license": "See Roboflow Universe",
+  "source_url": "https://universe.roboflow.com/roboflow-100/hard-hat-workers",
+  "results": [
+    {
+      "name": "hard_hat-yolov8s",
+      "model": "yolov8s",
+      "dataset": "hard_hat_workers",
+      "track": "detection",
+      "task": "detection",
+      "tool": "ultralytics",
+      "metrics": {
+        "primary_metric": "map50",
+        "primary_value": 0.658,
+        "accuracy": null,
+        "f1": null,
+        "roc_auc": null,
+        "rmse": null,
+        "mae": null,
+        "r2": null,
+        "silhouette": null,
+        "adjusted_rand": null,
+        "explained_variance": null,
+        "map50": 0.658,
+        "map50_95": 0.421,
+        "precision": null,
+        "recall": null,
+        "train_time_ms": 0.0,
+        "inference_ms": 18.7,
+        "extra": {
+          "note": "committed_colab_run"
+        }
+      }
+    },
+    {
+      "name": "hard_hat-yolov8n",
+      "model": "yolov8n",
+      "dataset": "hard_hat_workers",
+      "track": "detection",
+      "task": "detection",
+      "tool": "ultralytics",
+      "metrics": {
+        "primary_metric": "map50",
+        "primary_value": 0.612,
+        "accuracy": null,
+        "f1": null,
+        "roc_auc": null,
+        "rmse": null,
+        "mae": null,
+        "r2": null,
+        "silhouette": null,
+        "adjusted_rand": null,
+        "explained_variance": null,
+        "map50": 0.612,
+        "map50_95": 0.384,
+        "precision": null,
+        "recall": null,
+        "train_time_ms": 0.0,
+        "inference_ms": 12.4,
+        "extra": {
+          "note": "committed_colab_run"
+        }
+      }
+    }
+  ]
+}

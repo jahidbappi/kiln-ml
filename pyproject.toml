@@ -1,0 +1,74 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kiln-ml"
+version = "0.1.0"
+description = "Unified ML/CV benchmark platform — forge every algorithm on real data"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "Md. Jahidul Islam", email = "jahidbappi@users.noreply.github.com" }]
+keywords = ["machine-learning", "benchmark", "computer-vision", "sklearn", "keras", "yolo"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "pydantic>=2.9.0",
+  "numpy>=1.26.0",
+  "pandas>=2.2.0",
+  "scikit-learn>=1.5.0",
+  "opencv-python-headless>=4.10.0",
+  "joblib>=1.4.0",
+]
+
+[project.urls]
+Homepage = "https://kiln-ml.vercel.app"
+Benchmarks = "https://kiln-ml.vercel.app/benchmarks"
+Repository = "https://github.com/jahidbappi/kiln-ml"
+
+[project.optional-dependencies]
+vision = [
+  "keras>=3.0.0",
+  "tensorflow>=2.16.0",
+]
+detection = [
+  "ultralytics>=8.3.0",
+]
+all = [
+  "kiln-ml[vision,detection]",
+]
+dev = [
+  "pytest>=8.0.0",
+  "pytest-cov>=5.0.0",
+  "ruff>=0.6.0",
+]
+
+[project.scripts]
+kiln-benchmark = "kiln.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kiln"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+  "slow: integration tests requiring downloads or GPU",
+]

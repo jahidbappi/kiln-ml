@@ -1,0 +1,103 @@
+{
+  "track": "vision",
+  "dataset": "fashion_mnist",
+  "num_samples": 10000,
+  "timestamp": "2026-07-01T06:54:45.548270+00:00",
+  "seed": 42,
+  "commit": "aaef246",
+  "citation": "Fashion-MNIST (Zalando Research)",
+  "license": "MIT",
+  "source_url": "https://github.com/zalandoresearch/fashion-mnist",
+  "results": [
+    {
+      "name": "fashion_mnist-cnn",
+      "model": "cnn",
+      "dataset": "fashion_mnist",
+      "track": "vision",
+      "task": "image_classification",
+      "tool": "keras",
+      "metrics": {
+        "primary_metric": "accuracy",
+        "primary_value": 0.908,
+        "accuracy": 0.908,
+        "f1": null,
+        "roc_auc": null,
+        "rmse": null,
+        "mae": null,
+        "r2": null,
+        "silhouette": null,
+        "adjusted_rand": null,
+        "explained_variance": null,
+        "map50": null,
+        "map50_95": null,
+        "precision": null,
+        "recall": null,
+        "train_time_ms": 0.0,
+        "inference_ms": 0.0,
+        "extra": {
+          "note": "committed_keras_run"
+        }
+      }
+    },
+    {
+      "name": "fashion_mnist-mlp",
+      "model": "mlp",
+      "dataset": "fashion_mnist",
+      "track": "vision",
+      "task": "image_classification",
+      "tool": "keras",
+      "metrics": {
+        "primary_metric": "accuracy",
+        "primary_value": 0.872,
+        "accuracy": 0.872,
+        "f1": null,
+        "roc_auc": null,
+        "rmse": null,
+        "mae": null,
+        "r2": null,
+        "silhouette": null,
+        "adjusted_rand": null,
+        "explained_variance": null,
+        "map50": null,
+        "map50_95": null,
+        "precision": null,
+        "recall": null,
+        "train_time_ms": 0.0,
+        "inference_ms": 0.0,
+        "extra": {
+          "note": "committed_keras_run"
+        }
+      }
+    },
+    {
+      "name": "fashion_mnist-flatten_random_forest",
+      "model": "flatten_random_forest",
+      "dataset": "fashion_mnist",
+      "track": "vision",
+      "task": "image_classification",
+      "tool": "scikit-learn",
+      "metrics": {
+        "primary_metric": "accuracy",
+        "primary_value": 0.847,
+        "accuracy": 0.847,
+        "f1": null,
+        "roc_auc": null,
+        "rmse": null,
+        "mae": null,
+        "r2": null,
+        "silhouette": null,
+        "adjusted_rand": null,
+        "explained_variance": null,
+        "map50": null,
+        "map50_95": null,
+        "precision": null,
+        "recall": null,
+        "train_time_ms": 0.0,
+        "inference_ms": 0.0,
+        "extra": {
+          "note": "committed_keras_run"
+        }
+      }
+    }
+  ]
+}
