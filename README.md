@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://kiln-ml.vercel.app/benchmarks">
-    <img src="docs/assets/demo-preview.png" alt="Kiln benchmark leaderboards" width="720" />
+    <img src="docs/assets/demo.gif" alt="Kiln demo — home, leaderboards, methodology" width="720" />
   </a>
 </p>
 
