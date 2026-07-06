@@ -104,8 +104,14 @@ export default function BenchmarksPage() {
                 ))}
               </ul>
               <Link
-                href="/docs"
+                href="/docs/methodology"
                 className="mt-4 inline-block text-sm text-white/50 hover:text-orange-300"
+              >
+                Methodology & reproducibility →
+              </Link>
+              <Link
+                href="/docs"
+                className="mt-2 block text-sm text-white/50 hover:text-orange-300"
               >
                 Full algorithm matrix →
               </Link>

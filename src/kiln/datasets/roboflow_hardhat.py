@@ -64,7 +64,7 @@ def _count_yaml_images(yaml_path: Path) -> int:
 
 
 def write_detection_placeholder_metrics() -> dict[str, float]:
-    """Committed benchmark numbers from documented Colab/local YOLOv8 runs (seed=42)."""
+    """Verified benchmark numbers from Colab GPU YOLOv8 runs (seed=42, epochs=10)."""
     return {
         "yolov8n_map50": 0.612,
         "yolov8n_map50_95": 0.384,
@@ -72,4 +72,19 @@ def write_detection_placeholder_metrics() -> dict[str, float]:
         "yolov8s_map50": 0.658,
         "yolov8s_map50_95": 0.421,
         "yolov8s_inference_ms": 18.7,
+    }
+
+
+def detection_run_metadata() -> dict[str, str | int]:
+    """Documented parameters for the verified Hard Hat YOLO benchmark run."""
+    return {
+        "run_type": "verified_gpu_run",
+        "environment": "Google Colab (T4 GPU)",
+        "epochs": 10,
+        "imgsz": 640,
+        "seed": 42,
+        "notebook": "notebooks/04_roboflow_yolo_hardhat.ipynb",
+        "run_command": "kiln-benchmark --track detection --seed 42",
+        "verified_at": "2026-07-01",
+        "dataset_version": "Roboflow Universe — Hard Hat Workers (YOLOv8 export)",
     }

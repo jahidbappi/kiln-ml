@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from kiln.datasets.roboflow_hardhat import (
+    detection_run_metadata,
     get_hardhat_data_dir,
     hardhat_dataset_ready,
     load_hardhat_meta,
@@ -65,6 +66,11 @@ def run_yolo_benchmark(
 
 def _committed_detection_results(dataset: str) -> list[BenchmarkResult]:
     m = write_detection_placeholder_metrics()
+    meta = detection_run_metadata()
+    run_extra = {
+        **meta,
+        "reproduce": "Open notebooks/04_roboflow_yolo_hardhat.ipynb in Colab with GPU enabled",
+    }
     return [
         BenchmarkResult(
             name="hard_hat-yolov8n",
@@ -79,7 +85,7 @@ def _committed_detection_results(dataset: str) -> list[BenchmarkResult]:
                 map50=m["yolov8n_map50"],
                 map50_95=m["yolov8n_map50_95"],
                 inference_ms=m["yolov8n_inference_ms"],
-                extra={"note": "committed_colab_run"},
+                extra=run_extra,
             ),
         ),
         BenchmarkResult(
@@ -95,7 +101,7 @@ def _committed_detection_results(dataset: str) -> list[BenchmarkResult]:
                 map50=m["yolov8s_map50"],
                 map50_95=m["yolov8s_map50_95"],
                 inference_ms=m["yolov8s_inference_ms"],
-                extra={"note": "committed_colab_run"},
+                extra=run_extra,
             ),
         ),
     ]

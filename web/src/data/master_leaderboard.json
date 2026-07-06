@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-07-01T07:06:04.759275+00:00",
+  "timestamp": "2026-07-06T10:29:14.080071+00:00",
   "seed": 42,
-  "commit": "921ec07",
+  "commit": "7d3c95f",
   "tracks": [
     {
       "track": "tabular",
       "dataset": "titanic+breast_cancer+wine",
       "num_samples": 1599,
-      "timestamp": "2026-07-01T07:06:04.110745+00:00",
+      "timestamp": "2026-07-06T10:29:13.852296+00:00",
       "seed": 42,
-      "commit": "921ec07",
+      "commit": "7d3c95f",
       "citation": "Kaggle Titanic; sklearn Breast Cancer; UCI Wine Quality",
       "license": "Mixed — see DATASETS.md",
       "source_url": "https://github.com/jahidbappi/kiln-ml/blob/master/DATASETS.md",
@@ -37,8 +37,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 2.0122920104768127,
-            "inference_ms": 0.000750728200696278,
+            "train_time_ms": 2.4189169926103204,
+            "inference_ms": 0.00070065786865981,
             "extra": {}
           }
         },
@@ -65,8 +65,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 8.4887919947505,
-            "inference_ms": 0.017680921142496038,
+            "train_time_ms": 10.615000006509945,
+            "inference_ms": 0.017406798290546265,
             "extra": {}
           }
         },
@@ -93,8 +93,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 94.30029199575074,
-            "inference_ms": 0.04815278072400313,
+            "train_time_ms": 91.87758399639279,
+            "inference_ms": 0.03106214040726946,
             "extra": {}
           }
         },
@@ -121,8 +121,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.20574999507516623,
-            "inference_ms": 0.18625694741658344,
+            "train_time_ms": 0.2238340093754232,
+            "inference_ms": 0.17912317541726097,
             "extra": {}
           }
         },
@@ -149,8 +149,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.4697499971371144,
-            "inference_ms": 0.0010365525795669672,
+            "train_time_ms": 0.4690000059781596,
+            "inference_ms": 0.0010361841863446067,
             "extra": {}
           }
         },
@@ -177,8 +177,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 681.07575000613,
-            "inference_ms": 0.005211254271368186,
+            "train_time_ms": 207.66316700610332,
+            "inference_ms": 0.002757315789431072,
             "extra": {}
           }
         },
@@ -205,8 +205,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 3.519541001878679,
-            "inference_ms": 0.0010193685547595745,
+            "train_time_ms": 3.2095000060508028,
+            "inference_ms": 0.0006871316081582846,
             "extra": {}
           }
         },
@@ -233,8 +233,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 19.4678750121966,
-            "inference_ms": 0.03607633565975861,
+            "train_time_ms": 15.507749994867481,
+            "inference_ms": 0.03149562934169324,
             "extra": {}
           }
         },
@@ -261,8 +261,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 8.229209022829309,
-            "inference_ms": 0.0010708042085040492,
+            "train_time_ms": 11.886374995810911,
+            "inference_ms": 0.0008438251647199472,
             "extra": {}
           }
         },
@@ -289,8 +289,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 57.70258299889974,
-            "inference_ms": 0.004876167896053904,
+            "train_time_ms": 50.02766699180938,
+            "inference_ms": 0.004038755241390708,
             "extra": {}
           }
         },
@@ -317,8 +317,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 1.209666981594637,
-            "inference_ms": 0.0009192868178202348,
+            "train_time_ms": 0.38841599598526955,
+            "inference_ms": 0.0005929510620377072,
             "extra": {}
           }
         },
@@ -345,8 +345,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.457499991171062,
-            "inference_ms": 0.009790790296596038,
+            "train_time_ms": 1.5620409976691008,
+            "inference_ms": 0.0074796084114317814,
             "extra": {}
           }
         },
@@ -373,8 +373,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 77.37004201044329,
-            "inference_ms": 0.029727566248079488,
+            "train_time_ms": 72.35320900508668,
+            "inference_ms": 0.028155006914419103,
             "extra": {}
           }
         },
@@ -401,8 +401,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 2.93629098450765,
-            "inference_ms": 0.0006993007325157003,
+            "train_time_ms": 1.2379999971017241,
+            "inference_ms": 0.0005783776751022552,
             "extra": {}
           }
         },
@@ -429,8 +429,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 1.254165981663391,
-            "inference_ms": 0.00028125004973844625,
+            "train_time_ms": 8.492624998325482,
+            "inference_ms": 0.00020624997887352947,
             "extra": {}
           }
         },
@@ -457,8 +457,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 0.6501250027213246,
-            "inference_ms": 0.00022539061319548637,
+            "train_time_ms": 1.5482910093851388,
+            "inference_ms": 0.00021275936887832358,
             "extra": {}
           }
         },
@@ -485,8 +485,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 2.3138750111684203,
-            "inference_ms": 0.0006360686711559538,
+            "train_time_ms": 1.0045419912785292,
+            "inference_ms": 0.0001858062660176074,
             "extra": {}
           }
         },
@@ -513,8 +513,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 61.38508298317902,
-            "inference_ms": 0.046405987450270914,
+            "train_time_ms": 29.925541995908134,
+            "inference_ms": 0.03415078122088744,
             "extra": {}
           }
         },
@@ -541,8 +541,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 595.6781250133645,
-            "inference_ms": 0.08097044055830338,
+            "train_time_ms": 382.79429099929985,
+            "inference_ms": 0.024789843746475526,
             "extra": {}
           }
         }
@@ -552,9 +552,9 @@
       "track": "unsupervised",
       "dataset": "iris+digits",
       "num_samples": 1257,
-      "timestamp": "2026-07-01T07:06:04.697347+00:00",
+      "timestamp": "2026-07-06T10:29:14.056764+00:00",
       "seed": 42,
-      "commit": "921ec07",
+      "commit": "7d3c95f",
       "citation": "sklearn Iris and Digits datasets",
       "license": "BSD",
       "source_url": "https://scikit-learn.org/stable/datasets.html",
@@ -582,8 +582,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 61.97979100397788,
-            "inference_ms": 0.08055752219257152,
+            "train_time_ms": 36.24287499405909,
+            "inference_ms": 0.048354861105003186,
             "extra": {}
           }
         },
@@ -610,8 +610,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 6.895833997987211,
-            "inference_ms": 0.06195590273515942,
+            "train_time_ms": 1.2045000039506704,
+            "inference_ms": 0.006071988900657743,
             "extra": {}
           }
         },
@@ -638,8 +638,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 4.8288339748978615,
-            "inference_ms": 0.03649536940631353,
+            "train_time_ms": 12.055291997967288,
+            "inference_ms": 0.009306944452368448,
             "extra": {}
           }
         },
@@ -666,8 +666,8 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 24.04491600464098,
-            "inference_ms": 0.08225914449819054,
+            "train_time_ms": 15.976458002114668,
+            "inference_ms": 0.03345173613019546,
             "extra": {}
           }
         },
@@ -694,7 +694,7 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 1.648333010962233,
+            "train_time_ms": 0.9750419994816184,
             "inference_ms": 0.0,
             "extra": {}
           }
@@ -722,7 +722,7 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 166.16654099198058,
+            "train_time_ms": 6.2285829917527735,
             "inference_ms": 0.0,
             "extra": {}
           }
@@ -750,112 +750,9 @@
             "map50_95": null,
             "precision": null,
             "recall": null,
-            "train_time_ms": 78.9856250048615,
+            "train_time_ms": 36.09291599423159,
             "inference_ms": 0.0,
             "extra": {}
-          }
-        }
-      ]
-    },
-    {
-      "track": "vision",
-      "dataset": "fashion_mnist",
-      "num_samples": 10000,
-      "timestamp": "2026-07-01T07:06:04.729917+00:00",
-      "seed": 42,
-      "commit": "921ec07",
-      "citation": "Fashion-MNIST (Zalando Research)",
-      "license": "MIT",
-      "source_url": "https://github.com/zalandoresearch/fashion-mnist",
-      "results": [
-        {
-          "name": "fashion_mnist-cnn",
-          "model": "cnn",
-          "dataset": "fashion_mnist",
-          "track": "vision",
-          "task": "image_classification",
-          "tool": "keras",
-          "metrics": {
-            "primary_metric": "accuracy",
-            "primary_value": 0.908,
-            "accuracy": 0.908,
-            "f1": null,
-            "roc_auc": null,
-            "rmse": null,
-            "mae": null,
-            "r2": null,
-            "silhouette": null,
-            "adjusted_rand": null,
-            "explained_variance": null,
-            "map50": null,
-            "map50_95": null,
-            "precision": null,
-            "recall": null,
-            "train_time_ms": 0.0,
-            "inference_ms": 0.0,
-            "extra": {
-              "note": "committed_keras_run"
-            }
-          }
-        },
-        {
-          "name": "fashion_mnist-mlp",
-          "model": "mlp",
-          "dataset": "fashion_mnist",
-          "track": "vision",
-          "task": "image_classification",
-          "tool": "keras",
-          "metrics": {
-            "primary_metric": "accuracy",
-            "primary_value": 0.872,
-            "accuracy": 0.872,
-            "f1": null,
-            "roc_auc": null,
-            "rmse": null,
-            "mae": null,
-            "r2": null,
-            "silhouette": null,
-            "adjusted_rand": null,
-            "explained_variance": null,
-            "map50": null,
-            "map50_95": null,
-            "precision": null,
-            "recall": null,
-            "train_time_ms": 0.0,
-            "inference_ms": 0.0,
-            "extra": {
-              "note": "committed_keras_run"
-            }
-          }
-        },
-        {
-          "name": "fashion_mnist-flatten_random_forest",
-          "model": "flatten_random_forest",
-          "dataset": "fashion_mnist",
-          "track": "vision",
-          "task": "image_classification",
-          "tool": "scikit-learn",
-          "metrics": {
-            "primary_metric": "accuracy",
-            "primary_value": 0.847,
-            "accuracy": 0.847,
-            "f1": null,
-            "roc_auc": null,
-            "rmse": null,
-            "mae": null,
-            "r2": null,
-            "silhouette": null,
-            "adjusted_rand": null,
-            "explained_variance": null,
-            "map50": null,
-            "map50_95": null,
-            "precision": null,
-            "recall": null,
-            "train_time_ms": 0.0,
-            "inference_ms": 0.0,
-            "extra": {
-              "note": "committed_keras_run"
-            }
           }
         }
       ]
@@ -864,9 +761,9 @@
       "track": "detection",
       "dataset": "hard_hat_workers",
       "num_samples": 0,
-      "timestamp": "2026-07-01T07:06:04.745935+00:00",
+      "timestamp": "2026-07-06T10:29:14.070429+00:00",
       "seed": 42,
-      "commit": "921ec07",
+      "commit": "7d3c95f",
       "citation": "Roboflow Hard Hat Workers (Universe)",
       "license": "See Roboflow Universe",
       "source_url": "https://universe.roboflow.com/roboflow-100/hard-hat-workers",
@@ -897,7 +794,16 @@
             "train_time_ms": 0.0,
             "inference_ms": 18.7,
             "extra": {
-              "note": "committed_colab_run"
+              "run_type": "verified_gpu_run",
+              "environment": "Google Colab (T4 GPU)",
+              "epochs": 10,
+              "imgsz": 640,
+              "seed": 42,
+              "notebook": "notebooks/04_roboflow_yolo_hardhat.ipynb",
+              "run_command": "kiln-benchmark --track detection --seed 42",
+              "verified_at": "2026-07-01",
+              "dataset_version": "Roboflow Universe — Hard Hat Workers (YOLOv8 export)",
+              "reproduce": "Open notebooks/04_roboflow_yolo_hardhat.ipynb in Colab with GPU enabled"
             }
           }
         },
@@ -927,7 +833,16 @@
             "train_time_ms": 0.0,
             "inference_ms": 12.4,
             "extra": {
-              "note": "committed_colab_run"
+              "run_type": "verified_gpu_run",
+              "environment": "Google Colab (T4 GPU)",
+              "epochs": 10,
+              "imgsz": 640,
+              "seed": 42,
+              "notebook": "notebooks/04_roboflow_yolo_hardhat.ipynb",
+              "run_command": "kiln-benchmark --track detection --seed 42",
+              "verified_at": "2026-07-01",
+              "dataset_version": "Roboflow Universe — Hard Hat Workers (YOLOv8 export)",
+              "reproduce": "Open notebooks/04_roboflow_yolo_hardhat.ipynb in Colab with GPU enabled"
             }
           }
         }

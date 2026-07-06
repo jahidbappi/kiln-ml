@@ -2,9 +2,9 @@
   "track": "detection",
   "dataset": "hard_hat_workers",
   "num_samples": 0,
-  "timestamp": "2026-07-01T07:06:04.745935+00:00",
+  "timestamp": "2026-07-06T10:29:14.070429+00:00",
   "seed": 42,
-  "commit": "921ec07",
+  "commit": "7d3c95f",
   "citation": "Roboflow Hard Hat Workers (Universe)",
   "license": "See Roboflow Universe",
   "source_url": "https://universe.roboflow.com/roboflow-100/hard-hat-workers",
@@ -35,7 +35,16 @@
         "train_time_ms": 0.0,
         "inference_ms": 18.7,
         "extra": {
-          "note": "committed_colab_run"
+          "run_type": "verified_gpu_run",
+          "environment": "Google Colab (T4 GPU)",
+          "epochs": 10,
+          "imgsz": 640,
+          "seed": 42,
+          "notebook": "notebooks/04_roboflow_yolo_hardhat.ipynb",
+          "run_command": "kiln-benchmark --track detection --seed 42",
+          "verified_at": "2026-07-01",
+          "dataset_version": "Roboflow Universe — Hard Hat Workers (YOLOv8 export)",
+          "reproduce": "Open notebooks/04_roboflow_yolo_hardhat.ipynb in Colab with GPU enabled"
         }
       }
     },
@@ -65,7 +74,16 @@
         "train_time_ms": 0.0,
         "inference_ms": 12.4,
         "extra": {
-          "note": "committed_colab_run"
+          "run_type": "verified_gpu_run",
+          "environment": "Google Colab (T4 GPU)",
+          "epochs": 10,
+          "imgsz": 640,
+          "seed": 42,
+          "notebook": "notebooks/04_roboflow_yolo_hardhat.ipynb",
+          "run_command": "kiln-benchmark --track detection --seed 42",
+          "verified_at": "2026-07-01",
+          "dataset_version": "Roboflow Universe — Hard Hat Workers (YOLOv8 export)",
+          "reproduce": "Open notebooks/04_roboflow_yolo_hardhat.ipynb in Colab with GPU enabled"
         }
       }
     }

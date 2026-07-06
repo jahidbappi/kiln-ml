@@ -67,6 +67,24 @@ export function TrackSection({ track, accent = "border-white/10" }: Props) {
       {track.citation && (
         <p className="mt-3 text-xs leading-relaxed text-white/30">{track.citation}</p>
       )}
+      <div className="mt-3 flex flex-wrap gap-3 text-xs text-white/35">
+        <span>Updated {new Date(track.timestamp).toLocaleDateString()}</span>
+        {track.commit && (
+          <span>
+            commit <code className="text-orange-300/70">{track.commit}</code>
+          </span>
+        )}
+        {track.source_url && (
+          <a
+            href={track.source_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-orange-400/80 hover:text-orange-300"
+          >
+            Dataset source
+          </a>
+        )}
+      </div>
     </section>
   );
 }

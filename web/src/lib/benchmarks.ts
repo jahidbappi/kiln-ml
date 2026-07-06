@@ -30,6 +30,7 @@ export type TrackFile = {
   timestamp: string;
   commit?: string;
   citation?: string;
+  source_url?: string;
   results: Row[];
 };
 

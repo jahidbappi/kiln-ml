@@ -7,6 +7,7 @@ import { cn } from "@/lib/utils";
 const links = [
   { href: "/benchmarks", label: "Benchmarks" },
   { href: "/docs", label: "Docs" },
+  { href: "/docs/methodology", label: "Methodology" },
 ];
 
 export function SiteNav() {

@@ -12,6 +12,22 @@ export const metadata: Metadata = {
     title: "Kiln ML Benchmarks",
     description: "Forge every algorithm on real data.",
     url: "https://kiln-ml.vercel.app",
+    siteName: "Kiln",
+    images: [
+      {
+        url: "https://kiln-ml.vercel.app/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Kiln — ML/CV benchmark platform",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kiln ML Benchmarks",
+    description: "Forge every algorithm on real data.",
+    images: ["https://kiln-ml.vercel.app/og.png"],
   },
 };
 

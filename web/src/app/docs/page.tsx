@@ -117,6 +117,12 @@ kiln-benchmark --track tabular
 kiln-benchmark --track vision --epochs 5
 kiln-benchmark --track detection   # Colab recommended`}
             </pre>
+            <a
+              href="/docs/methodology"
+              className="mt-4 inline-block text-sm text-orange-400 hover:text-orange-300"
+            >
+              Read full methodology →
+            </a>
           </section>
         </div>
       </main>
